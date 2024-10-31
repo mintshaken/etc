@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/usr/bin/curl -fsSL -o "/etc/sing-box/config.json" "https://cdn.jsdelivr.net/gh/demarcush/breakfree@master/release/Sing-Box/ir-lite.json"
+/usr/bin/sing-box check -c "/etc/sing-box/config.json" && systemctl restart sing-box.service

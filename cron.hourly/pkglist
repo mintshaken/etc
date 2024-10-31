@@ -1,0 +1,6 @@
+#!/bin/sh
+# Make daily backup of currently installed packages for easy recovery
+
+/usr/bin/pacman -Qqen > /etc/pkglist.txt
+/usr/bin/pacman -Qqem > /etc/pkglist-aur.txt
+/usr/bin/flatpak list --app --columns=application > /etc/pkglist-flatpak.txt

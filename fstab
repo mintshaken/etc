@@ -1,0 +1,8 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+UUID=2c630509-5d3b-4924-ab97-48710a20f984	/	ext4	rw,relatime,lazytime	0 1
+UUID=bfaec77e-e570-4f93-8f12-c276c2b21f3d	/home	ext4	rw,relatime,lazytime	0 2
+UUID=AC4A-5965					/efi	vfat	rw,relatime,lazytime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+UUID=31e0d2da-99f9-46aa-b04f-eb2c3c88a6cd	none	swap	defaults        0 0
