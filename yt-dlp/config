@@ -1,0 +1,16 @@
+# vim: ft=conf
+--audio-format opus
+--convert-subs vtt
+--convert-thumbnails jpg
+--embed-chapters
+--embed-info-json
+--embed-metadata
+--embed-subs
+--embed-thumbnail
+--format 'bv[height<=?720]+wa/b[height<=?720]'
+--ignore-errors
+--remux-video mp4
+--retries infinite
+--sponsorblock-mark all
+--sponsorblock-remove 'sponsor,selfpromo'
+--sub-langs all
