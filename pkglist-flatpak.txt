@@ -1,12 +1,1 @@
-com.brave.Browser
-com.github.tchx84.Flatseal
-com.rustdesk.RustDesk
-com.usebottles.bottles
-io.gitlab.librewolf-community
 org.featherwallet.Feather
-org.gimp.GIMP
-org.gnome.Boxes
-org.keepassxc.KeePassXC
-org.qbittorrent.qBittorrent
-org.telegram.desktop
-org.torproject.torbrowser-launcher
