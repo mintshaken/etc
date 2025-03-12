@@ -1,0 +1,10 @@
+Defaults env_keep += "LANG LANGUAGE LINGUAS LC_* _XKB_CHARSET *_proxy *_PROXY SUDO_EDITOR VISUAL EDITOR DIFFPROG"
+Defaults insults
+Defaults env_editor
+
+root ALL=(ALL:ALL) ALL
+%wheel ALL=(ALL:ALL) ALL
+# %wheel ALL=(ALL:ALL) NOPASSWD: ALL
+
+## Read drop-in files from /etc/sudoers.d
+@includedir /etc/sudoers.d

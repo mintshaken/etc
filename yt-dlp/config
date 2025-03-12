@@ -1,0 +1,15 @@
+# vim: ft=conf
+--audio-format opus
+--convert-subs vtt
+--convert-thumbnails jpg
+--cookies-from-browser firefox
+--embed-metadata
+--embed-subs
+--embed-thumbnail
+--format 'bv*[height<=?720]+ba/b[height<=?720]/bv*+ba/b'
+--ignore-errors
+--remux-video mp4
+--retries infinite
+--sponsorblock-mark all
+--sponsorblock-remove 'sponsor,selfpromo'
+--sub-langs all
