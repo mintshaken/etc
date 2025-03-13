@@ -1,1 +1,5 @@
+com.github.tchx84.Flatseal
+com.usebottles.bottles
 org.featherwallet.Feather
+org.qbittorrent.qBittorrent
+org.torproject.torbrowser-launcher
