@@ -6,5 +6,7 @@ root ALL=(ALL:ALL) ALL
 %wheel ALL=(ALL:ALL) ALL
 # %wheel ALL=(ALL:ALL) NOPASSWD: ALL
 
+%wheel ALL=(ALL) NOPASSWD: /usr/bin/psd-overlay-helper
+
 ## Read drop-in files from /etc/sudoers.d
 @includedir /etc/sudoers.d
