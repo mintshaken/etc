@@ -2,7 +2,7 @@
 --audio-format opus
 --convert-subs vtt
 --convert-thumbnails jpg
---cookies-from-browser brave
+--cookies-from-browser firefox
 --embed-metadata
 --embed-subs
 --embed-thumbnail
