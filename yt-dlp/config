@@ -2,7 +2,7 @@
 --audio-format opus
 --convert-subs vtt
 --convert-thumbnails jpg
---cookies-from-browser firefox
+--cookies-from-browser "brave:~/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser"
 --embed-metadata
 --embed-subs
 --embed-thumbnail
